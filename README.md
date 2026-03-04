@@ -2,13 +2,16 @@
 
 A beautiful and responsive web application designed for task management and organization.
 
-Create custom workspaces, track your progress, and seamlessly manage tasks across different stages. Boardly provides an intuitive interface to help you stay productive and organized without a complicated setup.
+Create custom workspaces, track your progress, and seamlessly manage tasks across different stages. Boardly provides an intuitive interface to help you stay productive and organized without a complicated setup. This repository contains the frontend client, which is powered by a custom **Flask** backend.
 
 > **Live Demo:**
 > [https://boardly-devdaru.vercel.app](https://boardly-devdaru.vercel.app)
 >
 > **Important Note:**
 > The backend may take up to 50 seconds to wake up on the first request. Please be patient!
+>
+> **Backend Repository:**
+> [https://github.com/DevvMarko/Boardly-backend](https://github.com/DevvMarko/Boardly-backend)
 
 ---
 
@@ -25,13 +28,15 @@ Create custom workspaces, track your progress, and seamlessly manage tasks acros
 * **Comprehensive Task Management:** Create, edit, delete, and categorize tasks across four distinct statuses (To Do, In Progress, Completed, Won't Do).
 * **Board Customization:** Easily edit the board's name and description.
 * **Beautiful UI:** Sleek, modern aesthetic featuring gradient backgrounds, glowing elements, and responsive design courtesy of Tailwind CSS.
-* **REST API Integration:** Fully integrated with a backend service to ensure robust data persistence.
+* **REST API Integration:** Fully integrated with a custom **Flask backend service** to ensure robust data persistence.
 
 ## Tech Stack
 
 * ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 * ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 * ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+* ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+* ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
 ---
 
