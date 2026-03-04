@@ -1,16 +1,87 @@
-# React + Vite
+# Boardly - Task Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and responsive web application designed for task management and organization.
 
-Currently, two official plugins are available:
+Create custom workspaces, track your progress, and seamlessly manage tasks across different stages. Boardly provides an intuitive interface to help you stay productive and organized without a complicated setup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **Live Demo:**
+> [https://boardly-devdaru.vercel.app](https://boardly-devdaru.vercel.app)
+>
+> **Important Note:**
+> The backend may take up to 50 seconds to wake up on the first request. Please be patient!
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshots  
 
-## Expanding the ESLint configuration
+| Board View | Task Editor |
+|:---:|:---:|
+| ![Board View](./src/assets/screenshot2.png) | ![Task Editor](./src/assets/screenshot1.png) |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Features
+
+* **Instant Workspace Creation:** Generate a new personalized task board instantly and access it via a unique link.
+* **Comprehensive Task Management:** Create, edit, delete, and categorize tasks across four distinct statuses (To Do, In Progress, Completed, Won't Do).
+* **Board Customization:** Easily edit the board's name and description.
+* **Beautiful UI:** Sleek, modern aesthetic featuring gradient backgrounds, glowing elements, and responsive design courtesy of Tailwind CSS.
+* **REST API Integration:** Fully integrated with a backend service to ensure robust data persistence.
+
+## Tech Stack
+
+* ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+* ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+* ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+---
+
+## How to use / Quick Start
+
+Get started right away without needing to set anything up:
+
+1. Visit the live site link.
+2. Wait a few seconds for Boardly to provision a fresh, unique workspace for you.
+3. Bookmark or save the generated URL to re-access your board later.
+4. Click "Add new Task" to start managing your workflow!
+
+---
+
+## Local Development
+
+Instructions for developers who want to run the Boardly frontend locally and edit the code.
+
+### Prerequisites
+* Node.js (version 18 or higher recommended)
+* npm (Node Package Manager)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone [Repository Link]
+   ```
+2. Navigate to the frontend directory:
+   ```bash
+   cd Boardly-task-board/frontend
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Configure environment variables:
+   Create a `.env` file in the root of the `frontend` folder and set the backend API URL:
+   ```env
+   VITE_API_URL=http://localhost:5000
+   ```
+5. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   The application should now be accessible at `http://localhost:5173`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Project created by [@DevvMarko](https://github.com/DevvMarko) and I invite you to visit the author's portfolio page [mbarchanski.pl](https://mbarchanski.pl)
