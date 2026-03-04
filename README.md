@@ -41,8 +41,7 @@ Get started right away without needing to set anything up:
 
 1. Visit the live site link.
 2. Wait a few seconds for Boardly to provision a fresh, unique workspace for you.
-3. Bookmark or save the generated URL to re-access your board later.
-4. Click "Add new Task" to start managing your workflow!
+3. Click "Add new Task" to start managing your workflow!
 
 ---
 
